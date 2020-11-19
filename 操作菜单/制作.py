@@ -2,11 +2,11 @@ import os
 from 存档 import *
 from 内建函数 import *
 from 查看背包 import *
-with open(os.path.dirname(os.getcwd())+"\\雨林探险\\txt\\存档.txt") as r:exec(r.read())
-with open(os.path.dirname(os.getcwd())+"\\雨林探险\\txt\\建筑.txt") as r:exec(r.read())
-with open(os.path.dirname(os.getcwd())+"\\雨林探险\\txt\\item.txt") as r:exec(r.read())
-with open(os.path.dirname(os.getcwd())+"\\雨林探险\\txt\\装备.txt") as r:exec(r.read())
-with open(os.path.dirname(os.getcwd())+"\\雨林探险\\txt\\武器.txt") as r:exec(r.read())
+with open(os.getcwd()+"\\txt\\存档.txt") as r:exec(r.read())
+with open(os.getcwd()+"\\txt\\建筑.txt") as r:exec(r.read())
+with open(os.getcwd()+"\\txt\\item.txt") as r:exec(r.read())
+with open(os.getcwd()+"\\txt\\装备.txt") as r:exec(r.read())
+with open(os.getcwd()+"\\txt\\武器.txt") as r:exec(r.read())
 TX="item_"
 def zhizuo(item,TX=TX):
     ci=1

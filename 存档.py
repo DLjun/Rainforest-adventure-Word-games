@@ -1,5 +1,6 @@
 import os
-with open(os.path.dirname(os.getcwd())+"\\雨林探险\\txt\\存档.txt") as r:exec(r.read())
+#with open(os.path.dirname(os.getcwd())+"\\雨林探险\\txt\\存档.txt") as r:exec(r.read())
+with open("txt\存档.txt") as r:exec(r.read())
 def SAVE(exp=exp,shuxingbiao=shuxingbiao,shuxing=shuxing,BAG=BAG,changjing=changjing,BED=BED,HD=HD,BHS=BHS,wancheng=wancheng,ZBbiao=ZBbiao,WQbiao=WQbiao):
     t1=open("txt/存档.txt","w")
     t1.write(\

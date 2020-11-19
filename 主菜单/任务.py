@@ -4,7 +4,8 @@ from 存档 import *
 from 内建函数 import *
 ###########################
 #任务
-with open(os.path.dirname(os.getcwd())+"\\雨林探险\\txt\\存档.txt") as r:exec(r.read())
+with open(os.getcwd()+"\\txt\\存档.txt") as r:exec(r.read())
+#with open("\txt\存档.txt") as r:exec(r.read())
 def 搭建临时庇护所():
     exp=NEW("exp")
     BHS=NEW("BHS")

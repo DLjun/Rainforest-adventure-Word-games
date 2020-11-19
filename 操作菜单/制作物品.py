@@ -1,5 +1,5 @@
 from 制作 import *
-with open(os.path.dirname(os.getcwd())+"\\雨林探险\\txt\\存档.txt") as r:exec(r.read())
+with open(os.getcwd()+"\\txt\\存档.txt") as r:exec(r.read())
 def CZCD_XZ1():#操作菜单-制作物品
     wuping=[]
     zhizuo_list=\

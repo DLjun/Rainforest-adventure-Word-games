@@ -2,7 +2,7 @@ import os
 import sys
 sys.path.append(r'..')
 from 内建函数 import *
-with open(os.path.dirname(os.getcwd())+"\\雨林探险\\txt\\存档.txt") as r:exec(r.read())
+with open(os.getcwd()+"\\txt\\存档.txt") as r:exec(r.read())
 def ZCD_XZ1():#主菜单-查看人物状态
     exp=NEW("exp")
     shuxing=NEW("shuxing")

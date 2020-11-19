@@ -7,7 +7,7 @@ for i in MK:exec("from %s import *"%i)
 ###########################
 #初始化
 try:
-    with open(os.path.dirname(os.getcwd())+"\\雨林探险\\txt\\存档.txt") as r:exec(r.read())
+    with open(os.getcwd()+"\\txt\\存档.txt") as r:exec(r.read())
 except:
     start()
 ###########################

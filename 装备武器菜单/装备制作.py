@@ -1,7 +1,7 @@
 import sys
 sys.path.append(r'../操作菜单')
 from 制作 import *
-with open(os.path.dirname(os.getcwd())+"\\雨林探险\\txt\\存档.txt") as r:exec(r.read())
+with open(os.getcwd()+"\\txt\\存档.txt") as r:exec(r.read())
 def ZWCD_XZ2():#装备&武器菜单-装备制作
     wuping=[]
     zhizuo_list=\

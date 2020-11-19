@@ -4,7 +4,7 @@ sys.path.append(r'建筑菜单')
 sys.path.append(r'主菜单')
 MK=["存档","内建函数","查看背包","庇护所","床","火堆"]
 for i in MK:exec("from %s import *"%i)
-with open(os.path.dirname(os.getcwd())+"\\雨林探险\\txt\\存档.txt") as r:exec(r.read())
+with open(os.getcwd()+"\\txt\\存档.txt") as r:exec(r.read())
 def CZCD_XZ3():#操作菜单-建筑菜单    
     while True:
         HD=NEW("HD")
